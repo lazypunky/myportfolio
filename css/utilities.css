@@ -1,0 +1,78 @@
+@import "style.css";
+
+.text-center{
+    text-align: center;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.grid{
+    display: grid;
+}
+
+.flex{
+    display: flex;
+}
+  
+.btn{
+    padding: 0.8rem 3rem;
+    border-width: 0.1px;
+    border-radius: 2rem ;
+    -webkit-border-radius: 2rem ;
+    -moz-border-radius: 2rem ;
+    -ms-border-radius: 2rem ;
+    -o-border-radius: 2rem ;
+    background-color: var(--danger);
+    color: var(--heaven);
+    outline: none;
+    cursor: pointer;
+    transition: all 0.6s ease;
+    -webkit-transition: all 0.6s ease;
+    -moz-transition: all 0.6s ease;
+    -ms-transition: all 0.6s ease;
+    -o-transition: all 0.6s ease;
+}
+
+.btn-primary{
+    padding: 0.8rem 3rem;
+    border-width: 1.3px;
+    border-color: var(--footer);
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+    background-color: var(--heaven);
+    color: var(--danger);
+    outline: none;
+    cursor: pointer;
+    transition: all 0.6s ease;
+    -webkit-transition: all 0.6s ease;
+    -moz-transition: all 0.6s ease;
+    -ms-transition: all 0.6s ease;
+    -o-transition: all 0.6s ease;
+}
+
+.btn:hover{
+    border-width: 1px;
+    border-color: var(--footer);
+    background-color: var(--heaven);
+    color: var(--danger);
+}
+
+.btn-primary:hover{
+    background-color: var(--danger);
+    color: var(--heaven);
+    border-width: 1.3px;
+    border-color: var(--footer); 
+}
